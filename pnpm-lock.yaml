@@ -17,6 +17,9 @@ dependencies:
   astro:
     specifier: ^4.3.3
     version: 4.3.3(typescript@5.3.3)
+  astro-meta-tags:
+    specifier: ^0.2.1
+    version: 0.2.1(astro@4.3.3)
   solid-js:
     specifier: ^1.8.14
     version: 1.8.14
@@ -1384,6 +1387,14 @@ packages:
 
   /array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+    dev: false
+
+  /astro-meta-tags@0.2.1(astro@4.3.3):
+    resolution: {integrity: sha512-IFAQG6Ymwke+53H5hcBFtdYyCpF2KEVpp5wA7Qrx8O2+4hUx3N9wE6Vy6QgRHH2Lkgv48PUN7t5fUDBpCMEbAA==}
+    peerDependencies:
+      astro: ^4.0.0
+    dependencies:
+      astro: 4.3.3(typescript@5.3.3)
     dev: false
 
   /astro@4.3.3(typescript@5.3.3):
