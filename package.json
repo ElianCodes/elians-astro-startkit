@@ -2,6 +2,21 @@
   "name": "elians-astro-starter",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.14.3",
+  "engines": {
+    "node": "20"
+  },
+  "homepage": "https://github.com/ElianCodes/elians-astro-startkit",
+  "repository": {
+    "url": "git+https://github.com/ElianCodes/elians-astro-startkit",
+    "type": "git"
+  },
+  "author": {
+    "name": "ElianCodes",
+    "email": "hello@elian.codes",
+    "url": "https://www.elian.codes"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
