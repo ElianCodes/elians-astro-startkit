@@ -80,6 +80,8 @@ SolidJS, an amazing UI library with familiar syntax to React, but with some impr
 
 I use Biome for linting and formatting. It removes quite a bit of complication in setting up linting and formatting. Although that it doesn't support `.html` and `.css` (and thus supersets like `.astro`), I believe in the project and am very excited about it's future.
 
+Make sure to also set it as the default formatter for this project in your IDE, or run the `lint` and `format` commands regularly
+
 [Read more about Biome here](https://biomejs.dev/)
 
 ### TypeScript
