@@ -1,6 +1,6 @@
 # Astro Starter Kit: Elian Edition
 
-An Astro starter kit with all Elian's opionions pre-installed; Sorry not sorry 🤷‍♂️
+An Astro starter kit with all Elian's opinions pre-installed; Sorry not sorry 🤷‍♂️
 
 ```sh
 pnpm create astro@latest --template @eliancodes/elians-astro-starter
