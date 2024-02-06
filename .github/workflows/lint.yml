@@ -45,7 +45,7 @@ jobs:
       - name: Lint
         run: pnpm check
 
-      # - name: Commit changes
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     commit_message: "ci: apply formatting changes"
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "ci: apply formatting changes"
