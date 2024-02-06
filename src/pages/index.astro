@@ -1,8 +1,9 @@
 ---
 import Layout from '@layouts/Default.astro'
+import Counter from '@components/Counter'
 ---
 
 <Layout>
 	<h1 class="text-7xl text-green-800">Hello!</h1>
+	<Counter client:idle />
 </Layout>
-

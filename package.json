@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
+    "@astrojs/solid-js": "^4.0.1",
     "astro": "^4.3.3",
+    "solid-js": "^1.8.14",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
