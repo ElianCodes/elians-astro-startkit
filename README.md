@@ -100,3 +100,7 @@ You get the point.
 ### Remote development
 
 While most people (including me), tend to use their local machines for development, not everyone does, or is able to. I know that this starter kit is opinionated, but that doesn't have to mean to not be inclusive.
+
+## TODO
+
+- set up default issues and PRs
