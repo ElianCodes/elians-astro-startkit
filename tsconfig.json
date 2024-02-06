@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/workspace/elians-astro-startkit",
+    "baseUrl": ".",
     "paths": {
       "@components/*": [
         "src/components/*"
