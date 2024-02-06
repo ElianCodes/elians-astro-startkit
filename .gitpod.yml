@@ -1,0 +1,6 @@
+
+vscode:
+  extensions:
+    - astro-build.astro-vscode
+    - biomejs.biome
+    - antfu.unocss
