@@ -2,6 +2,7 @@
   "name": "elians-astro-starter",
   "type": "module",
   "version": "0.0.1",
+  "description": "An opinionated Astro starter kit by Elian",
   "packageManager": "pnpm@8.14.3",
   "engines": {
     "node": "20"
