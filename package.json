@@ -5,7 +5,7 @@
   "description": "An opinionated Astro starter kit by Elian",
   "packageManager": "pnpm@8.14.3",
   "engines": {
-    "node": "20"
+    "node": "18"
   },
   "homepage": "https://github.com/ElianCodes/elians-astro-startkit",
   "repository": {
