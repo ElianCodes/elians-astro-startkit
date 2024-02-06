@@ -7,11 +7,17 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "biome format ./src/* --write",
+    "lint": "biome lint ./src/*",
+    "check": "biome check ./src/* --apply"
   },
   "dependencies": {
-    "astro": "^4.3.3",
     "@astrojs/check": "^0.4.1",
+    "astro": "^4.3.3",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3"
   }
 }
