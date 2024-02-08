@@ -3,7 +3,7 @@
 An Astro starter kit with all Elian's opinions pre-installed; Sorry not sorry 🤷‍♂️
 
 ```sh
-pnpm create astro@latest --template @eliancodes/elians-astro-starter
+pnpm create astro@latest --template eliancodes/elians-astro-startkit
 ```
 
 ## 🚀 Project Structure
