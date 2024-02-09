@@ -103,6 +103,5 @@ While most people (including me), tend to use their local machines for developme
 
 ## TODO
 
-- set up default issues and PRs
 - Make nightly open PR instead of commit
 
