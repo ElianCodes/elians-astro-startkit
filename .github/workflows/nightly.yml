@@ -2,13 +2,13 @@ name: nightly
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 
 jobs:
   upgrade:
     runs-on: ubuntu-latest
     env:
-      NODE_OPTIONS: "--max_old_space_size=4096"
+      NODE_OPTIONS: '--max_old_space_size=4096'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -30,7 +30,11 @@ jobs:
       - name: Upgrade Astro
         run: pnpm dlx @astrojs/upgrade --yes
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: PR Changes
+        uses: peter-evans/create-pull-request@v4
         with:
-          commit_message: "ci: Upgrade Astro"
+          branch: ci/update-astro
+          commit-message: 'ci: update Astro'
+          title: 'ci: update Astro'
+          body: Update Astro and packages to latest version
+          labels: ci
