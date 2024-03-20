@@ -32,7 +32,7 @@
     "@astrojs/check": "^0.5.9",
     "@astrojs/sitemap": "^3.1.1",
     "@astrojs/solid-js": "^4.0.1",
-    "astro": "^4.5.5",
+    "astro": "^4.5.6",
     "astro-meta-tags": "^0.2.1",
     "solid-js": "^1.8.14",
     "typescript": "^5.3.3"
