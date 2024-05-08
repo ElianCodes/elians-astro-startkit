@@ -29,7 +29,7 @@
     "check": "biome check ./src/* --apply"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.10",
+    "@astrojs/check": "^0.6.0",
     "@astrojs/sitemap": "^3.1.4",
     "@astrojs/solid-js": "^4.1.0",
     "astro": "^4.7.1",
