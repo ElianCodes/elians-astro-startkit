@@ -31,8 +31,8 @@
   "dependencies": {
     "@astrojs/check": "^0.6.0",
     "@astrojs/sitemap": "^3.1.4",
-    "@astrojs/solid-js": "^4.1.0",
-    "astro": "^4.7.1",
+    "@astrojs/solid-js": "^4.2.0",
+    "astro": "^4.8.2",
     "astro-meta-tags": "^0.2.1",
     "solid-js": "^1.8.14",
     "typescript": "^5.3.3"
