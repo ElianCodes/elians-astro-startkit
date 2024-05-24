@@ -9,17 +9,17 @@ dependencies:
     specifier: ^0.7.0
     version: 0.7.0(typescript@5.3.3)
   '@astrojs/sitemap':
-    specifier: ^3.1.4
-    version: 3.1.4
+    specifier: ^3.1.5
+    version: 3.1.5
   '@astrojs/solid-js':
     specifier: ^4.2.0
     version: 4.2.0(solid-js@1.8.14)(vite@5.2.11)
   astro:
-    specifier: ^4.8.4
-    version: 4.8.4(typescript@5.3.3)
+    specifier: ^4.9.1
+    version: 4.9.1(typescript@5.3.3)
   astro-meta-tags:
     specifier: ^0.2.1
-    version: 0.2.1(astro@4.8.4)
+    version: 0.2.1(astro@4.9.1)
   solid-js:
     specifier: ^1.8.14
     version: 1.8.14
@@ -150,12 +150,12 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/sitemap@3.1.4:
-    resolution: {integrity: sha512-po8CqDCK14O6phU1mB5C8SyVLyQEa+7pJM8oXxs1mVh8DgvxxaA5E7lak1vzOmBcyyyHBW32jakGqNYc66sBRw==}
+  /@astrojs/sitemap@3.1.5:
+    resolution: {integrity: sha512-GLdzJ01387Uzb8RKYpsYLlg/GzoPnGbmDeQNkarSE11i2+l9Qp8Nj/WoTEy9nkTS25fxxy0kxDfJmreeVleCqg==}
     dependencies:
       sitemap: 7.1.1
       stream-replace-string: 2.0.0
-      zod: 3.22.4
+      zod: 3.23.8
     dev: false
 
   /@astrojs/solid-js@4.2.0(solid-js@1.8.14)(vite@5.2.11):
@@ -2060,16 +2060,16 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-meta-tags@0.2.1(astro@4.8.4):
+  /astro-meta-tags@0.2.1(astro@4.9.1):
     resolution: {integrity: sha512-IFAQG6Ymwke+53H5hcBFtdYyCpF2KEVpp5wA7Qrx8O2+4hUx3N9wE6Vy6QgRHH2Lkgv48PUN7t5fUDBpCMEbAA==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      astro: 4.8.4(typescript@5.3.3)
+      astro: 4.9.1(typescript@5.3.3)
     dev: false
 
-  /astro@4.8.4(typescript@5.3.3):
-    resolution: {integrity: sha512-3UExI/Pq47tvdSmYJTDkoyuygIibO+293MBkwc5iUzK5Cu/U4H7P3LwTyP8Gp/wQX+2zBEUifEb4oNO1HfUn2g==}
+  /astro@4.9.1(typescript@5.3.3):
+    resolution: {integrity: sha512-9TsoAu0WBPiqyAIj9H0JW7R+tIjPjFsPKo70Nja6WL3imTTuUJQmnCre4ZVmoNV3oicTTlb+N4zjRYANW0Ty9A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -4858,10 +4858,6 @@ packages:
       zod: ^3.23.3
     dependencies:
       zod: 3.23.8
-    dev: false
-
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
 
   /zod@3.23.8:
