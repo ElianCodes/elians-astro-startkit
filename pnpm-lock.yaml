@@ -15,11 +15,11 @@ dependencies:
     specifier: ^5.0.4
     version: 5.0.4(solid-js@1.9.4)
   astro:
-    specifier: ^5.1.8
-    version: 5.1.8(typescript@5.7.3)
+    specifier: ^5.1.9
+    version: 5.1.9(typescript@5.7.3)
   astro-meta-tags:
     specifier: ^0.3.1
-    version: 0.3.1(astro@5.1.8)
+    version: 0.3.1(astro@5.1.9)
   solid-js:
     specifier: ^1.9.4
     version: 1.9.4
@@ -39,7 +39,7 @@ devDependencies:
     version: 65.4.0
   unocss:
     specifier: ^65.4.0
-    version: 65.4.0(postcss@8.4.49)(vite@6.0.7)(vue@3.5.13)
+    version: 65.4.0(postcss@8.4.49)(vite@6.0.11)(vue@3.5.13)
 
 packages:
 
@@ -1453,7 +1453,7 @@ packages:
     resolution: {integrity: sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==}
     dev: false
 
-  /@unocss/astro@65.4.0(vite@6.0.7)(vue@3.5.13):
+  /@unocss/astro@65.4.0(vite@6.0.11)(vue@3.5.13):
     resolution: {integrity: sha512-bLi+H181PJ17E0Br06VwK7yeZffv9X46JCA7pnBlA/g8sDBxB+CwPOFaHlUeqVvis0CEt8HOr/e9418pxqQJTQ==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0
@@ -1463,8 +1463,8 @@ packages:
     dependencies:
       '@unocss/core': 65.4.0
       '@unocss/reset': 65.4.0
-      '@unocss/vite': 65.4.0(vite@6.0.7)(vue@3.5.13)
-      vite: 6.0.7
+      '@unocss/vite': 65.4.0(vite@6.0.11)(vue@3.5.13)
+      vite: 6.0.11
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1642,7 +1642,7 @@ packages:
       '@unocss/core': 65.4.0
     dev: true
 
-  /@unocss/vite@65.4.0(vite@6.0.7)(vue@3.5.13):
+  /@unocss/vite@65.4.0(vite@6.0.11)(vue@3.5.13):
     resolution: {integrity: sha512-9k4dUDvEK9PwttmVXhNWkEO7mH0Gp9hSUJY2CX3q+u40xqT3jx7hG765yfWWI9d/VSvzuv6/SurUul3ORJYA3w==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0 || ^6.0.0-0
@@ -1655,7 +1655,7 @@ packages:
       chokidar: 3.6.0
       magic-string: 0.30.17
       tinyglobby: 0.2.10
-      vite: 6.0.7
+      vite: 6.0.11
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1876,16 +1876,16 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-meta-tags@0.3.1(astro@5.1.8):
+  /astro-meta-tags@0.3.1(astro@5.1.9):
     resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
     dependencies:
-      astro: 5.1.8(typescript@5.7.3)
+      astro: 5.1.9(typescript@5.7.3)
     dev: false
 
-  /astro@5.1.8(typescript@5.7.3):
-    resolution: {integrity: sha512-7fNNceI/dXqGIkkZQjxhH31alAfgf33cDv34cPLCGFVSHHOpYG0NSrofnxdYf0BvWRlddqkq393UqDM5cJlv1w==}
+  /astro@5.1.9(typescript@5.7.3):
+    resolution: {integrity: sha512-QB3MH7Ul3gEvmHXEfvPkGpTZyyB/TBKQbm0kTHpo0BTEB7BvaY+wrcWiGEJBVDpVdEAKY9fM3zrJ0c7hZSXVlw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -4127,7 +4127,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /unocss@65.4.0(postcss@8.4.49)(vite@6.0.7)(vue@3.5.13):
+  /unocss@65.4.0(postcss@8.4.49)(vite@6.0.11)(vue@3.5.13):
     resolution: {integrity: sha512-1JO+9YHJ1n0xedOUWfgjJfQXentoxtMuXqR9+kB8I8A9N+PC73KX2YOMjvTia+NSrnSgnCmmnnsUWQqnJZR9fA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4139,7 +4139,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 65.4.0(vite@6.0.7)(vue@3.5.13)
+      '@unocss/astro': 65.4.0(vite@6.0.11)(vue@3.5.13)
       '@unocss/cli': 65.4.0
       '@unocss/core': 65.4.0
       '@unocss/postcss': 65.4.0(postcss@8.4.49)
@@ -4155,8 +4155,8 @@ packages:
       '@unocss/transformer-compile-class': 65.4.0
       '@unocss/transformer-directives': 65.4.0
       '@unocss/transformer-variant-group': 65.4.0
-      '@unocss/vite': 65.4.0(vite@6.0.7)(vue@3.5.13)
-      vite: 6.0.7
+      '@unocss/vite': 65.4.0(vite@6.0.11)(vue@3.5.13)
+      vite: 6.0.11
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -4336,54 +4336,6 @@ packages:
       rollup: 4.30.1
     optionalDependencies:
       fsevents: 2.3.3
-    dev: false
-
-  /vite@6.0.7:
-    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
-    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
-      jiti: '>=1.21.0'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      sass-embedded: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.16.0
-      tsx: ^4.8.1
-      yaml: ^2.4.2
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      jiti:
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      sass-embedded:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-      tsx:
-        optional: true
-      yaml:
-        optional: true
-    dependencies:
-      esbuild: 0.24.2
-      postcss: 8.4.49
-      rollup: 4.30.1
-    optionalDependencies:
-      fsevents: 2.3.3
-    dev: true
 
   /vitefu@1.0.5(vite@6.0.11):
     resolution: {integrity: sha512-h4Vflt9gxODPFNGPwp4zAMZRpZR7eslzwH2c5hn5kNZ5rhnKyRJ50U+yGCdc2IRaBs8O4haIgLNGrV5CrpMsCA==}
