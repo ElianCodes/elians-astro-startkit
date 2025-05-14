@@ -9,17 +9,17 @@ dependencies:
     specifier: ^0.9.4
     version: 0.9.4(typescript@5.7.3)
   '@astrojs/sitemap':
-    specifier: ^3.3.1
-    version: 3.3.1
+    specifier: ^3.4.0
+    version: 3.4.0
   '@astrojs/solid-js':
     specifier: ^5.0.10
     version: 5.0.10(solid-js@1.9.4)
   astro:
-    specifier: ^5.7.12
-    version: 5.7.12(typescript@5.7.3)
+    specifier: ^5.7.13
+    version: 5.7.13(typescript@5.7.3)
   astro-meta-tags:
     specifier: ^0.3.1
-    version: 0.3.1(astro@5.7.12)
+    version: 0.3.1(astro@5.7.13)
   solid-js:
     specifier: ^1.9.4
     version: 1.9.4
@@ -158,8 +158,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/sitemap@3.3.1:
-    resolution: {integrity: sha512-GRnDUCTviBSNfXJ0Jmur+1/C+z3g36jy79VyYggfe1uNyEYSTcmAfTTCmbytrRvJRNyJJnSfB/77Gnm9PiXRRg==}
+  /@astrojs/sitemap@3.4.0:
+    resolution: {integrity: sha512-C5m/xsKvRSILKM3hy47n5wKtTQtJXn8epoYuUmCCstaE9XBt20yInym3Bz2uNbEiNfv11bokoW0MqeXPIvjFIQ==}
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
@@ -2134,16 +2134,16 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-meta-tags@0.3.1(astro@5.7.12):
+  /astro-meta-tags@0.3.1(astro@5.7.13):
     resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
     dependencies:
-      astro: 5.7.12(typescript@5.7.3)
+      astro: 5.7.13(typescript@5.7.3)
     dev: false
 
-  /astro@5.7.12(typescript@5.7.3):
-    resolution: {integrity: sha512-UQOItiZz2hcv9PlHTQ6dNqFDIVNPnmwk6eyAjJqPE9O8EDHZK2JKtTRD0CBFN2Uqr0RE0TWP2gqDpLfsa5dJEA==}
+  /astro@5.7.13(typescript@5.7.3):
+    resolution: {integrity: sha512-cRGq2llKOhV3XMcYwQpfBIUcssN6HEK5CRbcMxAfd9OcFhvWE7KUy50zLioAZVVl3AqgUTJoNTlmZfD2eG0G1w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
