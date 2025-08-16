@@ -9,17 +9,17 @@ dependencies:
     specifier: ^0.9.4
     version: 0.9.4(typescript@5.7.3)
   '@astrojs/sitemap':
-    specifier: ^3.4.2
-    version: 3.4.2
+    specifier: ^3.5.0
+    version: 3.5.0
   '@astrojs/solid-js':
     specifier: ^5.1.0
     version: 5.1.0(solid-js@1.9.4)
   astro:
-    specifier: ^5.12.8
-    version: 5.12.8(typescript@5.7.3)
+    specifier: ^5.13.2
+    version: 5.13.2(typescript@5.7.3)
   astro-meta-tags:
     specifier: ^0.3.1
-    version: 0.3.1(astro@5.12.8)
+    version: 0.3.1(astro@5.13.2)
   solid-js:
     specifier: ^1.9.4
     version: 1.9.4
@@ -85,8 +85,8 @@ packages:
     resolution: {integrity: sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw==}
     dev: false
 
-  /@astrojs/internal-helpers@0.7.1:
-    resolution: {integrity: sha512-7dwEVigz9vUWDw3nRwLQ/yH/xYovlUA0ZD86xoeKEBmkz9O6iELG1yri67PgAPW6VLL/xInA4t7H0CK6VmtkKQ==}
+  /@astrojs/internal-helpers@0.7.2:
+    resolution: {integrity: sha512-KCkCqR3Goym79soqEtbtLzJfqhTWMyVaizUi35FLzgGSzBotSw8DB1qwsu7U96ihOJgYhDk2nVPz+3LnXPeX6g==}
     dev: false
 
   /@astrojs/language-server@2.15.4(typescript@5.7.3):
@@ -123,10 +123,10 @@ packages:
       - typescript
     dev: false
 
-  /@astrojs/markdown-remark@6.3.5:
-    resolution: {integrity: sha512-MiR92CkE2BcyWf3b86cBBw/1dKiOH0qhLgXH2OXA6cScrrmmks1Rr4Tl0p/lFpvmgQQrP54Pd1uidJfmxGrpWQ==}
+  /@astrojs/markdown-remark@6.3.6:
+    resolution: {integrity: sha512-bwylYktCTsLMVoCOEHbn2GSUA3c5KT/qilekBKA3CBng0bo1TYjNZPr761vxumRk9kJGqTOtU+fgCAp5Vwokug==}
     dependencies:
-      '@astrojs/internal-helpers': 0.7.1
+      '@astrojs/internal-helpers': 0.7.2
       '@astrojs/prism': 3.3.0
       github-slugger: 2.0.0
       hast-util-from-html: 2.0.3
@@ -158,8 +158,8 @@ packages:
       prismjs: 1.30.0
     dev: false
 
-  /@astrojs/sitemap@3.4.2:
-    resolution: {integrity: sha512-wfN2dZzdkto6yaMtOFa/J9gc60YE3wl3rgSBoNJ+MU3lJVUMsDY9xf9uAVi8Mp/zEQKFDSJlQzBvqQUpw0Hf6g==}
+  /@astrojs/sitemap@3.5.0:
+    resolution: {integrity: sha512-ldOvoBxuRgpcdndzksskOTzU55g76tkHC/POpejUbPGz6zR4rJKiXh8thX4WEPWDhCTZUafhJ1qf7k1muStHfg==}
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
@@ -2134,22 +2134,22 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-meta-tags@0.3.1(astro@5.12.8):
+  /astro-meta-tags@0.3.1(astro@5.13.2):
     resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
     dependencies:
-      astro: 5.12.8(typescript@5.7.3)
+      astro: 5.13.2(typescript@5.7.3)
     dev: false
 
-  /astro@5.12.8(typescript@5.7.3):
-    resolution: {integrity: sha512-KkJ7FR+c2SyZYlpakm48XBiuQcRsrVtdjG5LN5an0givI/tLik+ePJ4/g3qrAVhYMjJOxBA2YgFQxANPiWB+Mw==}
+  /astro@5.13.2(typescript@5.7.3):
+    resolution: {integrity: sha512-yjcXY0Ua3EwjpVd3GoUXa65HQ6qgmURBptA+M9GzE0oYvgfuyM7bIbH8IR/TWIbdefVUJR5b7nZ0oVnMytmyfQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 2.12.2
-      '@astrojs/internal-helpers': 0.7.1
-      '@astrojs/markdown-remark': 6.3.5
+      '@astrojs/internal-helpers': 0.7.2
+      '@astrojs/markdown-remark': 6.3.6
       '@astrojs/telemetry': 3.3.0
       '@capsizecss/unpack': 2.4.0
       '@oslojs/encoding': 1.1.0
