@@ -15,11 +15,11 @@ dependencies:
     specifier: ^5.1.3
     version: 5.1.3(solid-js@1.9.4)
   astro:
-    specifier: ^5.16.3
-    version: 5.16.3(typescript@5.7.3)
+    specifier: ^5.16.4
+    version: 5.16.4(typescript@5.7.3)
   astro-meta-tags:
     specifier: ^0.3.1
-    version: 0.3.1(astro@5.16.3)
+    version: 0.3.1(astro@5.16.4)
   solid-js:
     specifier: ^1.9.4
     version: 1.9.4
@@ -2211,16 +2211,16 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /astro-meta-tags@0.3.1(astro@5.16.3):
+  /astro-meta-tags@0.3.1(astro@5.16.4):
     resolution: {integrity: sha512-6g/SfAVTV7BsGlfWU+s/Kvo6atyn9DpfI7Dq3fE/ck3ppfg30aoeT2Uxu7UH4yla3QXAUWaJIher7fGjewf0ew==}
     peerDependencies:
       astro: ^4.0.0 || ^5.0.0-beta.0
     dependencies:
-      astro: 5.16.3(typescript@5.7.3)
+      astro: 5.16.4(typescript@5.7.3)
     dev: false
 
-  /astro@5.16.3(typescript@5.7.3):
-    resolution: {integrity: sha512-KzDk41F9Dspf5fM/Ls4XZhV4/csjJcWBrlenbnp5V3NGwU1zEaJz/HIyrdKdf5yw+FgwCeD2+Yos1Xkx9gnI0A==}
+  /astro@5.16.4(typescript@5.7.3):
+    resolution: {integrity: sha512-rgXI/8/tnO3Y9tfAaUyg/8beKhlIMltbiC8Q6jCoAfEidOyaue4KYKzbe0gJIb6qEdEaG3Kf3BY3EOSLkbWOLg==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
