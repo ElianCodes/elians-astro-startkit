@@ -38,8 +38,8 @@ The dev server runs at [http://localhost:4321](http://localhost:4321).
 | `pnpm preview` | Preview the production build locally |
 | `pnpm astro ...` | Run Astro CLI commands |
 | `pnpm format` | Format the codebase with Biome |
-| `pnpm lint` | Lint the codebase with Biome |
-| `pnpm check` | Run Biome checks with autofix enabled |
+| `pnpm lint` | Run Biome lint rules with autofix enabled |
+| `pnpm check` | Run Biome checks without writing files |
 
 ## Project structure
 

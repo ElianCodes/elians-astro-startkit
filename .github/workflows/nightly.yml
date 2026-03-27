@@ -1,8 +1,13 @@
-name: nightly
+name: Nightly Upgrade
 
 on:
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   upgrade:
@@ -11,27 +16,27 @@ jobs:
       NODE_OPTIONS: '--max_old_space_size=4096'
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v5
         with:
-          version: 8
+          version: 10
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Upgrade Astro
-        run: pnpm dlx @astrojs/upgrade --yes
+        run: pnpm dlx @astrojs/upgrade@latest --yes
 
       - name: PR Changes
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: ci/update-astro
           commit-message: 'ci: update Astro'
