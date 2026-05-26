@@ -40,5 +40,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.4.9"
+	},
+	"pnpm": {
+		"overrides": {
+			"yaml": "^2.8.3"
+		}
 	}
 }
