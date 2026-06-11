@@ -33,7 +33,7 @@
 		"@astrojs/sitemap": "^3.7.3",
 		"@astrojs/solid-js": "^6.0.1",
 		"@tailwindcss/vite": "^4.3.0",
-		"astro": "^6.4.4",
+		"astro": "^6.4.6",
 		"solid-js": "^1.9.13",
 		"tailwindcss": "^4.3.0",
 		"typescript": "^5.9.3"
